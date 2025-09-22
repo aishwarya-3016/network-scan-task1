@@ -1,0 +1,1030 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       10.38.145.165         10.38.145.94          DNS      71     Standard query 0x2643 A chatgpt.com
+
+Frame 1: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 53681, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000153       10.38.145.165         10.38.145.94          DNS      71     Standard query 0x8f2d AAAA chatgpt.com
+
+Frame 2: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 57020, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.001789       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TCP      1374   59296 → 443 [ACK] Seq=1 Ack=1 Win=255 Len=1300 [TCP PDU reassembled in 6]
+
+Frame 3: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 1, Ack: 1, Len: 1300
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.001789       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TCP      1374   59296 → 443 [ACK] Seq=1301 Ack=1 Win=255 Len=1300 [TCP PDU reassembled in 6]
+
+Frame 4: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 1301, Ack: 1, Len: 1300
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.001789       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TCP      1374   59296 → 443 [ACK] Seq=2601 Ack=1 Win=255 Len=1300 [TCP PDU reassembled in 6]
+
+Frame 5: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 2601, Ack: 1, Len: 1300
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.001789       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TLSv1.2  908    Application Data, Application Data
+
+Frame 6: 908 bytes on wire (7264 bits), 908 bytes captured (7264 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 3901, Ack: 1, Len: 834
+[6 Reassembled TCP Segments (4475 bytes): #3(1300), #4(1300), #16(1300), #5(1300), #14(1041), #6(575)]
+Transport Layer Security
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.155809       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2409:40f2:205b:e902::b1 DNS      91     Standard query 0x2643 A chatgpt.com
+
+Frame 7: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2409:40f2:205b:e902::b1
+User Datagram Protocol, Src Port: 53681, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.155809       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2409:40f2:205b:e902::b1 DNS      91     Standard query 0x8f2d AAAA chatgpt.com
+
+Frame 8: 91 bytes on wire (728 bits), 91 bytes captured (728 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2409:40f2:205b:e902::b1
+User Datagram Protocol, Src Port: 57020, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.261108       20.33.3.2             10.38.145.165         TLSv1.2  136    Application Data
+
+Frame 9: 136 bytes on wire (1088 bits), 136 bytes captured (1088 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 20.33.3.2, Dst: 10.38.145.165
+Transmission Control Protocol, Src Port: 443, Dst Port: 49809, Seq: 1, Ack: 1, Len: 82
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.301708       10.38.145.165         20.33.3.2             TCP      54     49809 → 443 [ACK] Seq=1 Ack=83 Win=258 Len=0
+
+Frame 10: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 20.33.3.2
+Transmission Control Protocol, Src Port: 49809, Dst Port: 443, Seq: 1, Ack: 83, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.347616       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     443 → 59296 [ACK] Seq=1 Ack=1301 Win=18 Len=0
+
+Frame 11: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 1, Ack: 1301, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.407699       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      86     [TCP Dup ACK 11#1] 443 → 59296 [ACK] Seq=1 Ack=1301 Win=18 Len=0 SLE=2601 SRE=3901
+
+Frame 12: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 1, Ack: 1301, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.442483       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      86     [TCP Dup ACK 11#2] 443 → 59296 [ACK] Seq=1 Ack=1301 Win=18 Len=0 SLE=2601 SRE=4735
+
+Frame 13: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 1, Ack: 1301, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.972427       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TCP      1374   [TCP Retransmission] 59296 → 443 [PSH, ACK] Seq=3435 Ack=1 Win=255 Len=1300
+
+Frame 14: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 3435, Ack: 1, Len: 1300
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 1.123553       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      94     [TCP Dup ACK 11#3] 443 → 59296 [ACK] Seq=1 Ack=1301 Win=18 Len=0 SLE=3435 SRE=4735 SLE=2601 SRE=4735
+
+Frame 15: 94 bytes on wire (752 bits), 94 bytes captured (752 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 1, Ack: 1301, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 1.123753       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TCP      1374   [TCP Fast Retransmission] 59296 → 443 [ACK] Seq=1301 Ack=1 Win=255 Len=1300 [TCP PDU reassembled in 6]
+
+Frame 16: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 1301, Ack: 1, Len: 1300
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 1.161084       10.38.145.165         10.38.145.94          DNS      71     Standard query 0x8f2d AAAA chatgpt.com
+
+Frame 17: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 57020, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 1.161084       10.38.145.165         10.38.145.94          DNS      71     Standard query 0x2643 A chatgpt.com
+
+Frame 18: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 53681, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 1.236591       10.38.145.94          10.38.145.165         DNS      99     Standard query response 0x8f2d AAAA chatgpt.com AAAA 2606:4700:9c62:7dba:cddd:b09:5ff2:75c4
+
+Frame 19: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 57020
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 1.250476       10.38.145.94          10.38.145.165         DNS      103    Standard query response 0x2643 A chatgpt.com A 104.18.32.47 A 172.64.155.209
+
+Frame 20: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 53681
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 1.255142       10.38.145.165         10.38.145.94          DNS      71     Standard query 0x9c22 A chatgpt.com
+
+Frame 21: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 60383, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 1.257320       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     443 → 59296 [ACK] Seq=1 Ack=4735 Win=18 Len=0
+
+Frame 22: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 1, Ack: 4735, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 1.257800       10.38.145.94          10.38.145.165         DNS      103    Standard query response 0x9c22 A chatgpt.com A 172.64.155.209 A 104.18.32.47
+
+Frame 23: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 60383
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 1.261989       10.38.145.165         10.38.145.94          DNS      71     Standard query 0xc6c8 AAAA chatgpt.com
+
+Frame 24: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 49318, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 1.266123       10.38.145.94          10.38.145.165         DNS      99     Standard query response 0xc6c8 AAAA chatgpt.com AAAA 2606:4700:9c62:7dba:cddd:b09:5ff2:75c4
+
+Frame 25: 99 bytes on wire (792 bits), 99 bytes captured (792 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 49318
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 1.523120       10.38.145.165         10.38.145.94          DNS      74     Standard query 0x6cbd A ab.chatgpt.com
+
+Frame 26: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 63924, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 1.523905       10.38.145.165         10.38.145.94          DNS      74     Standard query 0x400e AAAA ab.chatgpt.com
+
+Frame 27: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 55210, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 1.596795       10.38.145.94          10.38.145.165         DNS      106    Standard query response 0x6cbd A ab.chatgpt.com A 104.18.32.47 A 172.64.155.209
+
+Frame 28: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 63924
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 1.606647       10.38.145.94          10.38.145.165         DNS      102    Standard query response 0x400e AAAA ab.chatgpt.com AAAA 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+
+Frame 29: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 55210
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 1.613953       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TCP      86     61412 → 443 [SYN] Seq=0 Win=64320 Len=0 MSS=1340 WS=256 SACK_PERM
+
+Frame 30: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 1.616093       10.38.145.165         10.38.145.94          DNS      74     Standard query 0x5883 AAAA ab.chatgpt.com
+
+Frame 31: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 56865, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 1.616093       10.38.145.165         10.38.145.94          DNS      74     Standard query 0x3efd A ab.chatgpt.com
+
+Frame 32: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 63166, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 1.618365       10.38.145.94          10.38.145.165         DNS      106    Standard query response 0x3efd A ab.chatgpt.com A 172.64.155.209 A 104.18.32.47
+
+Frame 33: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 63166
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 1.618509       10.38.145.94          10.38.145.165         DNS      102    Standard query response 0x5883 AAAA ab.chatgpt.com AAAA 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+
+Frame 34: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 56865
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 1.693906       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      86     443 → 61412 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1300 SACK_PERM WS=8192
+
+Frame 35: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 1.694075       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TCP      74     61412 → 443 [ACK] Seq=1 Ack=1 Win=66048 Len=0
+
+Frame 36: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 1.707254       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TCP      1374   61412 → 443 [ACK] Seq=1 Ack=1 Win=66048 Len=1300 [TCP PDU reassembled in 38]
+
+Frame 37: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 1, Ack: 1, Len: 1300
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 1.707254       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TLSv1.3  673    Client Hello (SNI=ab.chatgpt.com)
+
+Frame 38: 673 bytes on wire (5384 bits), 673 bytes captured (5384 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 1301, Ack: 1, Len: 599
+[2 Reassembled TCP Segments (1899 bytes): #37(1300), #38(599)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 1.833977       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     443 → 61412 [ACK] Seq=1 Ack=1301 Win=139264 Len=0
+
+Frame 39: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 1, Ack: 1301, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 1.849169       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     443 → 61412 [ACK] Seq=1 Ack=1900 Win=139264 Len=0
+
+Frame 40: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 1, Ack: 1900, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 1.855547       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.3  1374   Server Hello, Change Cipher Spec
+
+Frame 41: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 1, Ack: 1900, Len: 1300
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 1.858604       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      1374   443 → 61412 [ACK] Seq=1301 Ack=1900 Win=139264 Len=1300 [TCP PDU reassembled in 44]
+
+Frame 42: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 1301, Ack: 1900, Len: 1300
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 1.858847       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TCP      74     61412 → 443 [ACK] Seq=1900 Ack=2601 Win=66048 Len=0
+
+Frame 43: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 1900, Ack: 2601, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 1.859177       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.3  652    Application Data
+
+Frame 44: 652 bytes on wire (5216 bits), 652 bytes captured (5216 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 2601, Ack: 1900, Len: 578
+[3 Reassembled TCP Segments (1957 bytes): #41(79), #42(1300), #44(578)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 1.883012       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TLSv1.3  138    Change Cipher Spec, Application Data
+
+Frame 45: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 1900, Ack: 3179, Len: 64
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 1.887723       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TLSv1.3  166    Application Data
+
+Frame 46: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 1964, Ack: 3179, Len: 92
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 1.887919       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TLSv1.3  1374   Application Data
+
+Frame 47: 1374 bytes on wire (10992 bits), 1374 bytes captured (10992 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 2056, Ack: 3179, Len: 1300
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 1.887919       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TLSv1.3  202    Application Data
+
+Frame 48: 202 bytes on wire (1616 bits), 202 bytes captured (1616 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 3356, Ack: 3179, Len: 128
+[2 Reassembled TCP Segments (1026 bytes): #47(898), #48(128)]
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 1.964147       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.3  602    Application Data, Application Data
+
+Frame 49: 602 bytes on wire (4816 bits), 602 bytes captured (4816 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 3179, Ack: 1964, Len: 528
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 1.967999       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TLSv1.3  105    Application Data
+
+Frame 50: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 3484, Ack: 3707, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 1.973155       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.3  105    Application Data
+
+Frame 51: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 3707, Ack: 2056, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 2.019080       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      86     [TCP Dup ACK 51#1] 443 → 61412 [ACK] Seq=3738 Ack=2056 Win=139264 Len=0 SLE=3356 SRE=3484
+
+Frame 52: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 3738, Ack: 2056, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 2.019080       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     443 → 61412 [ACK] Seq=3738 Ack=3484 Win=147456 Len=0
+
+Frame 53: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 3738, Ack: 3484, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 2.021990       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TCP      74     61412 → 443 [ACK] Seq=3515 Ack=3738 Win=65024 Len=0
+
+Frame 54: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 3515, Ack: 3738, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 2.091352       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     443 → 61412 [ACK] Seq=3738 Ack=3515 Win=147456 Len=0
+
+Frame 55: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 3738, Ack: 3515, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 2.101186       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.3  1012   Application Data
+
+Frame 56: 1012 bytes on wire (8096 bits), 1012 bytes captured (8096 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 3738, Ack: 3515, Len: 938
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 2.102053       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.3  121    Application Data
+
+Frame 57: 121 bytes on wire (968 bits), 121 bytes captured (968 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 4676, Ack: 3515, Len: 47
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 2.102053       2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.3  105    Application Data
+
+Frame 58: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 61412, Seq: 4723, Ack: 3515, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 2.102366       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4 TCP      74     61412 → 443 [ACK] Seq=3515 Ack=4754 Win=66048 Len=0
+
+Frame 59: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:ccdd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 61412, Dst Port: 443, Seq: 3515, Ack: 4754, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 2.218660       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.2  109    [TCP Previous segment not captured] , Application Data
+
+Frame 60: 109 bytes on wire (872 bits), 109 bytes captured (872 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 312, Ack: 4735, Len: 35
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 2.218927       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TCP      86     [TCP Dup ACK 3#1] 59296 → 443 [ACK] Seq=4735 Ack=1 Win=255 Len=0 SLE=312 SRE=347
+
+Frame 61: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 4735, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 2.223713       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      385    [TCP Retransmission] 443 → 59296 [PSH, ACK] Seq=1 Ack=4735 Win=18 Len=311
+
+Frame 62: 385 bytes on wire (3080 bits), 385 bytes captured (3080 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 1, Ack: 4735, Len: 311
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 2.224089       2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TLSv1.2  105    Application Data
+
+Frame 63: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 443, Dst Port: 59296, Seq: 347, Ack: 4735, Len: 31
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 2.224204       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4 TCP      74     59296 → 443 [ACK] Seq=4735 Ack=378 Win=254 Len=0
+
+Frame 64: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2606:4700:9c62:7dba:c9dd:b09:5ff2:75c4
+Transmission Control Protocol, Src Port: 59296, Dst Port: 443, Seq: 4735, Ack: 378, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 4.761588       Intel_af:1d:e7        c2:87:af:12:a2:b1     ARP      42     Who has 10.38.145.94? Tell 10.38.145.165
+
+Frame 65: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 4.761785       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2409:40f2:205b:e902::b1 ICMPv6   86     Neighbor Solicitation for 2409:40f2:205b:e902::b1 from c8:f7:33:af:1d:e7
+
+Frame 66: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2409:40f2:205b:e902::b1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 4.825055       c2:87:af:12:a2:b1     Intel_af:1d:e7        ARP      42     10.38.145.94 is at c2:87:af:12:a2:b1
+
+Frame 67: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 4.825304       2409:40f2:205b:e902::b1 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 ICMPv6   78     Neighbor Advertisement 2409:40f2:205b:e902::b1 (rtr, sol)
+
+Frame 68: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902::b1, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 5.280892       10.38.145.165         20.33.3.2             TLSv1.2  427    Application Data
+
+Frame 69: 427 bytes on wire (3416 bits), 427 bytes captured (3416 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 20.33.3.2
+Transmission Control Protocol, Src Port: 49809, Dst Port: 443, Seq: 1, Ack: 83, Len: 373
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 5.281244       10.38.145.165         20.33.3.2             TLSv1.2  243    Application Data
+
+Frame 70: 243 bytes on wire (1944 bits), 243 bytes captured (1944 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 20.33.3.2
+Transmission Control Protocol, Src Port: 49809, Dst Port: 443, Seq: 374, Ack: 83, Len: 189
+Transport Layer Security
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 5.479845       10.38.145.165         10.38.145.94          DNS      83     Standard query 0x66fa A ctldl.windowsupdate.com
+
+Frame 71: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 61891, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 5.480424       10.38.145.165         10.38.145.94          DNS      83     Standard query 0x9c81 AAAA ctldl.windowsupdate.com
+
+Frame 72: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 62354, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 5.547271       10.38.145.94          10.38.145.165         DNS      297    Standard query response 0x66fa A ctldl.windowsupdate.com CNAME ctldl.windowsupdate.com.delivery.microsoft.com CNAME wu-b-net.trafficmanager.net CNAME download.windowsupdate.com.edgesuite.net CNAME a767.dspw65.akamai.net A 23.193.56.17 A 23.193.56.32
+
+Frame 73: 297 bytes on wire (2376 bits), 297 bytes captured (2376 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 61891
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 5.567095       10.38.145.94          10.38.145.165         DNS      321    Standard query response 0x9c81 AAAA ctldl.windowsupdate.com CNAME ctldl.windowsupdate.com.delivery.microsoft.com CNAME wu-b-net.trafficmanager.net CNAME download.windowsupdate.com.edgesuite.net CNAME a767.dspw65.akamai.net AAAA 2405:200:1608:1731::b854:e809 AAAA 2405:200:1608:1731::b854:e822
+
+Frame 74: 321 bytes on wire (2568 bits), 321 bytes captured (2568 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 62354
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 5.588486       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::b854:e809 TCP      86     61413 → 80 [SYN] Seq=0 Win=64320 Len=0 MSS=1340 WS=256 SACK_PERM
+
+Frame 75: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::b854:e809
+Transmission Control Protocol, Src Port: 61413, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 5.702276       2405:200:1608:1731::b854:e809 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      86     80 → 61413 [SYN, ACK] Seq=0 Ack=1 Win=64800 Len=0 MSS=1300 SACK_PERM WS=128
+
+Frame 76: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::b854:e809, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 80, Dst Port: 61413, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 5.702606       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::b854:e809 TCP      74     61413 → 80 [ACK] Seq=1 Ack=1 Win=66048 Len=0
+
+Frame 77: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::b854:e809
+Transmission Control Protocol, Src Port: 61413, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 5.706543       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::b854:e809 HTTP     362    GET /msdownload/update/v3/static/trustedr/en/disallowedcertstl.cab?9f39f405c7029704 HTTP/1.1 
+
+Frame 78: 362 bytes on wire (2896 bits), 362 bytes captured (2896 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::b854:e809
+Transmission Control Protocol, Src Port: 61413, Dst Port: 80, Seq: 1, Ack: 1, Len: 288
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 5.734125       20.33.3.2             10.38.145.165         TCP      54     443 → 49809 [ACK] Seq=83 Ack=563 Win=1 Len=0
+
+Frame 79: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 20.33.3.2, Dst: 10.38.145.165
+Transmission Control Protocol, Src Port: 443, Dst Port: 49809, Seq: 83, Ack: 563, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 5.855556       2405:200:1608:1731::b854:e809 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     80 → 61413 [ACK] Seq=1 Ack=289 Win=64512 Len=0
+
+Frame 80: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::b854:e809, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 80, Dst Port: 61413, Seq: 1, Ack: 289, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 5.855556       2405:200:1608:1731::b854:e809 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 HTTP     342    HTTP/1.1 304 Not Modified 
+
+Frame 81: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::b854:e809, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 80, Dst Port: 61413, Seq: 1, Ack: 289, Len: 268
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 5.908453       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::b854:e809 TCP      74     61413 → 80 [ACK] Seq=289 Ack=269 Win=65792 Len=0
+
+Frame 82: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::b854:e809
+Transmission Control Protocol, Src Port: 61413, Dst Port: 80, Seq: 289, Ack: 269, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 7.129670       c2:87:af:12:a2:b1     Intel_af:1d:e7        ARP      42     Who has 10.38.145.165? Tell 10.38.145.94
+
+Frame 83: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 7.129752       Intel_af:1d:e7        c2:87:af:12:a2:b1     ARP      42     10.38.145.165 is at c8:f7:33:af:1d:e7
+
+Frame 84: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 7.800699       fe80::c087:afff:fe12:a2b1 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 ICMPv6   86     Neighbor Solicitation for 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 from c2:87:af:12:a2:b1
+
+Frame 85: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: fe80::c087:afff:fe12:a2b1, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 7.801089       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 fe80::c087:afff:fe12:a2b1 ICMPv6   86     Neighbor Advertisement 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 (sol, ovr) is at c8:f7:33:af:1d:e7
+
+Frame 86: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: fe80::c087:afff:fe12:a2b1
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 8.724788       10.38.145.165         10.38.145.94          DNS      73     Standard query 0x0330 A ncc.avast.com
+
+Frame 87: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 50691, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 8.725152       10.38.145.165         10.38.145.94          DNS      73     Standard query 0xef67 AAAA ncc.avast.com
+
+Frame 88: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 10.38.145.94
+User Datagram Protocol, Src Port: 56541, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 8.883722       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2409:40f2:205b:e902::b1 DNS      93     Standard query 0x0330 A ncc.avast.com
+
+Frame 89: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2409:40f2:205b:e902::b1
+User Datagram Protocol, Src Port: 50691, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 8.883722       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2409:40f2:205b:e902::b1 DNS      93     Standard query 0xef67 AAAA ncc.avast.com
+
+Frame 90: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2409:40f2:205b:e902::b1
+User Datagram Protocol, Src Port: 56541, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 8.926111       10.38.145.94          10.38.145.165         DNS      202    Standard query response 0xef67 AAAA ncc.avast.com CNAME ncc.avast.com.edgesuite.net CNAME a1488.dscd.akamai.net AAAA 2405:200:1608:1731::312c:7112 AAAA 2405:200:1608:1731::312c:7110
+
+Frame 91: 202 bytes on wire (1616 bits), 202 bytes captured (1616 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 56541
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 8.945875       10.38.145.94          10.38.145.165         DNS      178    Standard query response 0x0330 A ncc.avast.com CNAME ncc.avast.com.edgesuite.net CNAME a1488.dscd.akamai.net A 23.193.56.105 A 23.193.56.25
+
+Frame 92: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 10.38.145.94, Dst: 10.38.145.165
+User Datagram Protocol, Src Port: 53, Dst Port: 50691
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 8.957521       2409:40f2:205b:e902::b1 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 DNS      198    Standard query response 0x0330 A ncc.avast.com CNAME ncc.avast.com.edgesuite.net CNAME a1488.dscd.akamai.net A 23.193.56.105 A 23.193.56.25
+
+Frame 93: 198 bytes on wire (1584 bits), 198 bytes captured (1584 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902::b1, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+User Datagram Protocol, Src Port: 53, Dst Port: 50691
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 8.963373       2409:40f2:205b:e902::b1 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 DNS      222    Standard query response 0xef67 AAAA ncc.avast.com CNAME ncc.avast.com.edgesuite.net CNAME a1488.dscd.akamai.net AAAA 2405:200:1608:1731::312c:7112 AAAA 2405:200:1608:1731::312c:7110
+
+Frame 94: 222 bytes on wire (1776 bits), 222 bytes captured (1776 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902::b1, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+User Datagram Protocol, Src Port: 53, Dst Port: 56541
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 8.988091       10.38.145.165         23.193.56.105         TCP      66     61414 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 95: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 23.193.56.105
+Transmission Control Protocol, Src Port: 61414, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 9.069547       23.193.56.105         10.38.145.165         TCP      66     80 → 61414 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1300 SACK_PERM WS=128
+
+Frame 96: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 23.193.56.105, Dst: 10.38.145.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 61414, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 9.069797       10.38.145.165         23.193.56.105         TCP      54     61414 → 80 [ACK] Seq=1 Ack=1 Win=66048 Len=0
+
+Frame 97: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 23.193.56.105
+Transmission Control Protocol, Src Port: 61414, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 9.070051       10.38.145.165         23.193.56.105         HTTP     136    GET /ncc.txt HTTP/1.1 
+
+Frame 98: 136 bytes on wire (1088 bits), 136 bytes captured (1088 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 23.193.56.105
+Transmission Control Protocol, Src Port: 61414, Dst Port: 80, Seq: 1, Ack: 1, Len: 82
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 9.128704       23.193.56.105         10.38.145.165         TCP      54     80 → 61414 [ACK] Seq=1 Ack=83 Win=64256 Len=0
+
+Frame 99: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 23.193.56.105, Dst: 10.38.145.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 61414, Seq: 1, Ack: 83, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 9.129593       23.193.56.105         10.38.145.165         HTTP     205    HTTP/1.1 200 OK  (text/html)
+
+Frame 100: 205 bytes on wire (1640 bits), 205 bytes captured (1640 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 23.193.56.105, Dst: 10.38.145.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 61414, Seq: 1, Ack: 83, Len: 151
+Hypertext Transfer Protocol
+Line-based text data: text/html (1 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 9.130006       10.38.145.165         23.193.56.105         TCP      54     61414 → 80 [FIN, ACK] Seq=83 Ack=152 Win=66048 Len=0
+
+Frame 101: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 23.193.56.105
+Transmission Control Protocol, Src Port: 61414, Dst Port: 80, Seq: 83, Ack: 152, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 9.174624       2409:40f2:205b:e902:8ca7:41c0:7b41:826c 2405:200:1608:1731::312c:7112 TCP      86     61415 → 80 [SYN] Seq=0 Win=64320 Len=0 MSS=1340 WS=256 SACK_PERM
+
+Frame 102: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61415, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 9.175003       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::312c:7112 TCP      86     61416 → 80 [SYN] Seq=0 Win=64320 Len=0 MSS=1340 WS=256 SACK_PERM
+
+Frame 103: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61416, Dst Port: 80, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 9.179093       23.193.56.105         10.38.145.165         TCP      54     80 → 61414 [FIN, ACK] Seq=152 Ack=84 Win=64256 Len=0
+
+Frame 104: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 4, Src: 23.193.56.105, Dst: 10.38.145.165
+Transmission Control Protocol, Src Port: 80, Dst Port: 61414, Seq: 152, Ack: 84, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 9.179189       10.38.145.165         23.193.56.105         TCP      54     61414 → 80 [ACK] Seq=84 Ack=153 Win=66048 Len=0
+
+Frame 105: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 4, Src: 10.38.145.165, Dst: 23.193.56.105
+Transmission Control Protocol, Src Port: 61414, Dst Port: 80, Seq: 84, Ack: 153, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 9.235786       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:8ca7:41c0:7b41:826c TCP      86     80 → 61415 [SYN, ACK] Seq=0 Ack=1 Win=64800 Len=0 MSS=1300 SACK_PERM WS=128
+
+Frame 106: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c
+Transmission Control Protocol, Src Port: 80, Dst Port: 61415, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 9.236220       2409:40f2:205b:e902:8ca7:41c0:7b41:826c 2405:200:1608:1731::312c:7112 TCP      74     61415 → 80 [ACK] Seq=1 Ack=1 Win=66048 Len=0
+
+Frame 107: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61415, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 9.236440       2409:40f2:205b:e902:8ca7:41c0:7b41:826c 2405:200:1608:1731::312c:7112 HTTP     156    GET /ncc.txt HTTP/1.1 
+
+Frame 108: 156 bytes on wire (1248 bits), 156 bytes captured (1248 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61415, Dst Port: 80, Seq: 1, Ack: 1, Len: 82
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 9.240566       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      86     80 → 61416 [SYN, ACK] Seq=0 Ack=1 Win=64800 Len=0 MSS=1300 SACK_PERM WS=128
+
+Frame 109: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 80, Dst Port: 61416, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 9.241055       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::312c:7112 TCP      74     61416 → 80 [ACK] Seq=1 Ack=1 Win=66048 Len=0
+
+Frame 110: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61416, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 9.241426       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::312c:7112 HTTP     156    GET /ncc.txt HTTP/1.1 
+
+Frame 111: 156 bytes on wire (1248 bits), 156 bytes captured (1248 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61416, Dst Port: 80, Seq: 1, Ack: 1, Len: 82
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 9.284350       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:8ca7:41c0:7b41:826c TCP      74     80 → 61415 [ACK] Seq=1 Ack=83 Win=64768 Len=0
+
+Frame 112: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c
+Transmission Control Protocol, Src Port: 80, Dst Port: 61415, Seq: 1, Ack: 83, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 9.285062       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:8ca7:41c0:7b41:826c HTTP     225    HTTP/1.1 200 OK  (text/html)
+
+Frame 113: 225 bytes on wire (1800 bits), 225 bytes captured (1800 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c
+Transmission Control Protocol, Src Port: 80, Dst Port: 61415, Seq: 1, Ack: 83, Len: 151
+Hypertext Transfer Protocol
+Line-based text data: text/html (1 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 9.293563       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     80 → 61416 [ACK] Seq=1 Ack=83 Win=64768 Len=0
+
+Frame 114: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 80, Dst Port: 61416, Seq: 1, Ack: 83, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 9.293563       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 HTTP     225    HTTP/1.1 200 OK  (text/html)
+
+Frame 115: 225 bytes on wire (1800 bits), 225 bytes captured (1800 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 80, Dst Port: 61416, Seq: 1, Ack: 83, Len: 151
+Hypertext Transfer Protocol
+Line-based text data: text/html (1 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 9.293970       2409:40f2:205b:e902:8ca7:41c0:7b41:826c 2405:200:1608:1731::312c:7112 TCP      74     61415 → 80 [FIN, ACK] Seq=83 Ack=152 Win=66048 Len=0
+
+Frame 116: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61415, Dst Port: 80, Seq: 83, Ack: 152, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 9.294192       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::312c:7112 TCP      74     61416 → 80 [FIN, ACK] Seq=83 Ack=152 Win=66048 Len=0
+
+Frame 117: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61416, Dst Port: 80, Seq: 83, Ack: 152, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 9.344035       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:8ca7:41c0:7b41:826c TCP      74     80 → 61415 [FIN, ACK] Seq=152 Ack=84 Win=64768 Len=0
+
+Frame 118: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c
+Transmission Control Protocol, Src Port: 80, Dst Port: 61415, Seq: 152, Ack: 84, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 9.344142       2409:40f2:205b:e902:8ca7:41c0:7b41:826c 2405:200:1608:1731::312c:7112 TCP      74     61415 → 80 [ACK] Seq=84 Ack=153 Win=66048 Len=0
+
+Frame 119: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:8ca7:41c0:7b41:826c, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61415, Dst Port: 80, Seq: 84, Ack: 153, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 9.357189       2405:200:1608:1731::312c:7112 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 TCP      74     80 → 61416 [FIN, ACK] Seq=152 Ack=84 Win=64768 Len=0
+
+Frame 120: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1), Dst: Intel_af:1d:e7 (c8:f7:33:af:1d:e7)
+Internet Protocol Version 6, Src: 2405:200:1608:1731::312c:7112, Dst: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7
+Transmission Control Protocol, Src Port: 80, Dst Port: 61416, Seq: 152, Ack: 84, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 9.357275       2409:40f2:205b:e902:d1c0:84:b1ea:8cc7 2405:200:1608:1731::312c:7112 TCP      74     61416 → 80 [ACK] Seq=84 Ack=153 Win=66048 Len=0
+
+Frame 121: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{97FA2929-AB4A-4146-BEEE-B51169DF06D9}, id 0
+Ethernet II, Src: Intel_af:1d:e7 (c8:f7:33:af:1d:e7), Dst: c2:87:af:12:a2:b1 (c2:87:af:12:a2:b1)
+Internet Protocol Version 6, Src: 2409:40f2:205b:e902:d1c0:84:b1ea:8cc7, Dst: 2405:200:1608:1731::312c:7112
+Transmission Control Protocol, Src Port: 61416, Dst Port: 80, Seq: 84, Ack: 153, Len: 0

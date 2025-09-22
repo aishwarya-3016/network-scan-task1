@@ -1,0 +1,6 @@
+# Nmap 7.98 scan initiated Mon Sep 22 16:32:36 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -sV -oN scan_results.txt -oA myscan 10.38.145.0/24
+Host: 10.38.145.94 ()	Status: Up
+Host: 10.38.145.94 ()	Ports: 53/open/tcp//domain//dnsmasq 2.51/	Ignored State: closed (999)
+Host: 10.38.145.165 ()	Status: Up
+Host: 10.38.145.165 ()	Ports: 25/filtered/tcp//smtp///, 110/filtered/tcp//pop3///, 119/filtered/tcp//nntp///, 125/filtered/tcp//locus-map///, 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 143/filtered/tcp//imap///, 445/open/tcp//microsoft-ds?///, 465/filtered/tcp//smtps///, 548/filtered/tcp//afp///, 563/filtered/tcp//snews///, 587/filtered/tcp//submission///, 800/filtered/tcp//mdbs_daemon///, 903/filtered/tcp//iss-console-mgr///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///, 1025/filtered/tcp//NFS-or-IIS///, 1122/filtered/tcp//availant-mgr///, 1433/filtered/tcp//ms-sql-s///, 5357/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/	Ignored State: closed (980)
+# Nmap done at Mon Sep 22 16:33:00 2025 -- 256 IP addresses (2 hosts up) scanned in 24.48 seconds
